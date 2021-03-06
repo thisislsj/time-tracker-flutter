@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "248960993020",
+    "project_id": "time-tracker-4fdd2",
+    "storage_bucket": "time-tracker-4fdd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248960993020:android:2f888d12e70c0fe7c23979",
+        "android_client_info": {
+          "package_name": "com.teqlabsit.time_tracker_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248960993020-vanc8upeldcis0lhtnt1jll4ml8acaje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teqlabsit.time_tracker_app",
+            "certificate_hash": "896281e8d7f84db00303958a5b3efbd1d18fcdb5"
+          }
+        },
+        {
+          "client_id": "248960993020-i169eu323gn93l5e83ubtd607bgr058d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVybWfJqCdQz6upPXaVuAdqAtTZnTmZLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248960993020-i169eu323gn93l5e83ubtd607bgr058d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

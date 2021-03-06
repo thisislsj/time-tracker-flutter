@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:time_tracker_app/app/sign_in/sign_in_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: Container(
-        color: Colors.white,
-      ),
+      home: SignInPage(),
     );
   }
 }

@@ -1,4 +1,4 @@
-package com.example.time_tracker_app
+package com.teqlabsit.time_tracker_app
 
 import io.flutter.embedding.android.FlutterActivity
 
