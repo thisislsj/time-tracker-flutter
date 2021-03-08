@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:time_tracker_app/app/landing_page.dart';
+import 'package:time_tracker_app/services/auth.dart';
 
 Future<void> main() async {
   // If you're running an application and need to access the binary messenger before `runApp()` has been called
@@ -23,7 +24,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: LandingPage(),
+      home: LandingPage(
+        //passing an instance of AuthBase
+        auth: Auth(),
+      ),
     );
   }
 }
