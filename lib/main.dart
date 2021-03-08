@@ -1,7 +1,13 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:time_tracker_app/app/sign_in/sign_in_page.dart';
+import 'package:time_tracker_app/app/landing_page.dart';
 
-void main() {
+Future<void> main() async {
+  // If you're running an application and need to access the binary messenger before `runApp()` has been called
+  // (for example, during plugin initialization), then you need to explicitly call
+  // the `WidgetsFlutterBinding.ensureInitialized()` first.
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(); //initialize firebase at the begining
   runApp(MyApp());
 }
 
@@ -17,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: SignInPage(),
+      home: LandingPage(),
     );
   }
 }
