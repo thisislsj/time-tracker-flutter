@@ -20,6 +20,9 @@ class _LandingPageState extends State<LandingPage> {
   @override
   void initState() {
     super.initState();
+    widget.auth.authStateChanges().listen((user) {
+      print('user:${user?.uid}');
+    });
     //keep the app in login state even after restarting
     //auth us defined in widget class not in state, so we have to go with widget.auth
     _updateUser(widget.auth.currentUser);
